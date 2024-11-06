@@ -1,10 +1,10 @@
 import javax.swing.*;  
 public class FirstSwingExample {  
 public static void main(String[] args) {  
-JFrame f=new JFrame();//creating instance of JFrame  
+JFrame f=new JFrame("GUI - Swing Class");//creating instance of JFrame  
           
-JButton b=new JButton("Credo Systemz");//creating instance of JButton  
-b.setBounds(100,100,200, 40);//x axis, y axis, width, height  
+JButton b=new JButton("click");//creating instance of JButton  
+b.setBounds(100,100,100, 40);//x axis, y axis, width, height  
           
 f.add(b);//adding button in JFrame  
           
@@ -13,3 +13,4 @@ f.setLayout(null);//using no layout managers
 f.setVisible(true);//making the frame visible  
 }  
 }  
+
